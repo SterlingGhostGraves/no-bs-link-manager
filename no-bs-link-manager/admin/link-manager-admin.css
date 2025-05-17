@@ -1,0 +1,43 @@
+#no-bs-link-manager-app table th, #wp-link-manager-app table td {
+    padding: 8px;
+}
+/* Add this to your link-manager-admin.css file */
+.wplm-edit-row label {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+
+.wplm-edit-row select,
+.wplm-edit-row input[type="text"] {
+    margin-left: 4px;
+    margin-right: 8px;
+}
+
+.wplm-edit-row {
+    background: #f6f7f7;
+}
+.wplm-highlight { background: #ffe09a !important; }
+#no-bs-link-manager-app .widefat td.attrs {
+    font-size: 14px;
+    line-height: 1.8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#no-bs-link-manager-app .attrs .attr-badge {
+    display: inline-block;
+    background: #e5e5e5;
+    color: #222;
+    border-radius: 8px;
+    padding: 2px 10px;
+    margin: 0 3px 2px 0;
+    font-weight: 600;
+}
+#no-bs-link-manager-app .attrs .attr-nofollow { background: #f0b37e; color: #914900; }
+#no-bs-link-manager-app .attrs .attr-dofollow { background: #baf5ba; color: #297022; }
+#no-bs-link-manager-app .attrs .attr-sponsored { background: #ffc6c6; color: #a30000; }
+#no-bs-link-manager-app .attrs .attr-UGC { background: #bad9f5; color: #004070; }
+#no-bs-link-manager-app .attrs .attr-newtab { background: #eee; color: #0645ad; }
+#no-bs-link-manager-app .link-status span { font-weight: bold; }
+
